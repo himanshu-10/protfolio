@@ -30,6 +30,7 @@ const Layout = () => {
                 </p>
                 
             </div>
+            
             <Menu toggle={toggle}/>
 
         </div>
