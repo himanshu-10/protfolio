@@ -19,19 +19,21 @@ const Menu = ({toggle}) => {
           <div className='nav-item'>
             <div className='nav-links'>
               <FcHome/>
-              Home
+              <a href="#Home">Home</a>
             </div>
             <div className='nav-links'>
               <FcAbout />
-              About
+              <a href="#About">About</a>
+              
             </div>
             <div className='nav-links'>
               <FcComboChart />
               Work Experience
             </div>
             <div className='nav-links'>
+              
               <FcFlowChart />
-              Tech Stack
+              <a href="#Tech">Tech Stack</a>
             </div>
             <div className='nav-links'>
               <FcReading />
